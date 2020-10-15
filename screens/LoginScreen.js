@@ -14,10 +14,10 @@ const LoginScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../assets/rn-social-logo.png')}
+        source={require('../assets/logo.png')}
         style={styles.logo}
       />
-      <Text style={styles.text}>RN Social App</Text>
+      <Text style={styles.text}>Car And Memos</Text>
 
       <FormInput
         labelValue={email}
