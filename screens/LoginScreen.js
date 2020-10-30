@@ -13,7 +13,7 @@ const LoginScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Image
+      {/*<Image
         source={require('../assets/logo.png')}
         style={styles.logo}
       />
@@ -41,10 +41,11 @@ const LoginScreen = ({ navigation }) => {
         buttonTitle="Sign In"
         onPress={() => login(email, password)}
       />
+      */}
 
-      <TouchableOpacity style={styles.forgotButton} onPress={() => { }}>
+      {/*<TouchableOpacity style={styles.forgotButton} onPress={() => { }}>
         <Text style={styles.navButtonText}>Forgot Password?</Text>
-      </TouchableOpacity>
+    </TouchableOpacity>*/}
 
       {Platform.OS === 'android' ? (
         <View>
